@@ -1,16 +1,16 @@
-uoSwift
-======
+uoSwift <br/>
+====== <br/>
 
-Team Name: uoSwift
+Team Name: uoSwift <br/>
 
-Team Member Names:
-Rayane Slimane-Kadi - Student Number 300426127
-Danella Nduwayo - Student Number
-Murtaza Rhythm - Student Number
-Joy Yeung - Student Number
+Team Member Names: <br/>
+Rayane Slimane-Kadi - Student Number 300426127 <br/>
+Danella Nduwayo - Student Number <br/>
+Murtaza Rhythm - Student Number <br/>
+Joy Yeung - Student Number <br/>
 
 
-Product Name: uoSwift
+Product Name: uoSwift <br/>
 
-Description:
+Description: <br/> 
 uoSwift is a ride-sharing app that connects people from the same neighborhood heading to the same destination with available drivers.
