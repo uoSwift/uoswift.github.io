@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UOswift Pricing</title>
+  <style>
+    /* General styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Header with sliding animation (smaller version) */
+    .header {
+      background-color: darkred;
+      padding: 10px; /* Reduced padding */
+      text-align: center;
+      animation: slideInHeader 1.5s ease-out forwards;
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    @keyframes slideInHeader {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+
+    .wordmark {
+      font-size: 36px; /* Reduced font size */
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Menu under UOswift wordmark */
+    .menu {
+      background-color: grey;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .menu a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    /* Pricing wordmark above panels */
+    .pricing-title {
+      font-size: 36px;
+      color: darkred;
+      text-align: center;
+      margin: 40px 0 20px;
+    }
+
+    /* Pricing panels */
+    .pricing {
+      display: flex;
+      justify-content: space-around;
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+      gap: 20px;
+    }
+
+    .panel {
+      background-color: grey; /* Match the panel color with the menu */
+      color: white;
+      padding: 20px;
+      width: 30%;
+      text-align: center;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      min-height: 300px; /* Increased height */
+    }
+
+    .panel:hover {
+      background-color: #777;
+      transform: translateY(-10px);
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Panel headings */
+    h2 {
+      margin-top: 0;
+    }
+
+    /* Mobile-friendly layout */
+    @media (max-width: 768px) {
+      .pricing {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .panel {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with animated wordmark and sliding red header banner (smaller version) -->
+  <header class="header">
+    <h1 class="wordmark">UOswift</h1>
+  </header>
+
+  <!-- Grey Menu Links -->
+  <nav class="menu">
+    <a href="#about-us">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Pricing Wordmark -->
+  <div class="pricing-title">
+    Pricing
+  </div>
+
+  <!-- Pricing section -->
+  <section class="pricing">
+    <div class="panel">
+      <h2>Pay Per Ride</h2>
+      <p>$X per ride</p>
+      <p>Describe plan here</p> <!-- Placeholder text -->
+    </div>
+    <div class="panel">
+      <h2>7 Rides (2 Weeks)</h2>
+      <p>$15</p>
+      <p>Describe plan here.</p> <!-- Placeholder text -->
+    </div>
+    <div class="panel">
+      <h2>25 Rides Subscription</h2>
+      <p>$50</p>
+      <p>Describe plan here</p> <!-- Placeholder text -->
+    </div>
+  </section>
+
+</body>
+</html>
