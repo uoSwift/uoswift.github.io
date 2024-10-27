@@ -1,0 +1,35 @@
+Overall Look and Feel of uoSwift
+===============================
+
+The overall look and feel should be minimalist and flat since that is the more modern trend in web design.
+
+Colours
+========
+Our colours will be close to the uOttawa colours, since our target audience are university students.
+
+- #0b090a
+- #161a1d
+- #660708
+- #a4161a
+- #ba181b
+- #e5383b
+- #b1a7a6
+- #d3d3d3
+- #f5f3f4
+- #ffffff
+
+Iconography
+===========
+uoSwift will have flat icons since, again, this style is more modern in web design
+
+Typography
+==========
+We will be using Inter from Google Fonts.
+
+Links
+=====
+Links will not be underlined and should change color when a user hovers over it.
+
+Buttons
+=======
+Buttons will be flat designed using the chosen colors outlined above.
