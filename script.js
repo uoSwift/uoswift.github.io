@@ -40,15 +40,3 @@ Js for Homepage
             });
         });
     </script>
-
-
-
-The JavaScript code controls the highlighting and scrolling behavior for sections and navigation links on the page:
-
-activate Section Function: Highlights a section by adding an "active" class to it, visually enlarging it, and removing the highlight from other sections.
-
-Section Click Events: Allows each section box to be highlighted when clicked by calling activateSection with the clicked section’s ID.
-
-Navigation Link Click Events: Each navigation link, when clicked, prevents the default jump behavior, highlights the matching section, and smoothly scrolls to it on the page.
-
-This enhances user experience by adding interactive transitions to the page.
