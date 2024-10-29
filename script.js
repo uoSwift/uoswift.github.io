@@ -1,4 +1,4 @@
-<script>
+
         // Select all sections
         const sections = document.querySelectorAll('.section');
 
@@ -37,4 +37,3 @@
                 document.getElementById(target).scrollIntoView({ behavior: 'smooth' });
             });
         });
-    </script>
