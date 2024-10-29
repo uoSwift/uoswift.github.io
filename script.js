@@ -1,5 +1,3 @@
-Js for Homepage
-
 <script>
         // Select all sections
         const sections = document.querySelectorAll('.section');
