@@ -16,6 +16,33 @@
             position: relative;
         }
 
+        /* Navigation bar styling */
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            margin-right: 40px;
+            display: flex;
+            gap: 1vw;
+            z-index: 2;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            padding: 10px 15px;
+            background-color: rgba(205, 196, 196, 0.5);
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.7);
+            color: black;
+            transform: scale(1.1);
+        }
+
         .how-to-start {
             display: flex;
             justify-content: space-between;
@@ -53,6 +80,14 @@
 </head>
 
 <body>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="team.html">About us</a>
+    </nav>
 
     <section class="how-to-start">
         <div class="content">
